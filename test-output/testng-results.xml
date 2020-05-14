@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6964" started-at="2020-05-13T21:39:34 CDT" finished-at="2020-05-13T21:39:41 CDT">
+  <suite name="Default suite" duration-ms="34951" started-at="2020-05-13T22:25:39 CDT" finished-at="2020-05-13T22:26:14 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6964" started-at="2020-05-13T21:39:34 CDT" finished-at="2020-05-13T21:39:41 CDT">
-      <class name="test.LoginTest">
-        <test-method status="PASS" signature="validUserShouldBeAbletoLoginin()[pri:0, instance:test.LoginTest@50b494a6]" name="validUserShouldBeAbletoLoginin" duration-ms="6927" started-at="2020-05-13T21:39:34 CDT" finished-at="2020-05-13T21:39:41 CDT">
+    <test name="Default test" duration-ms="34951" started-at="2020-05-13T22:25:39 CDT" finished-at="2020-05-13T22:26:14 CDT">
+      <class name="test.test">
+        <test-method status="PASS" signature="createNewContactPage()[pri:4, instance:test.test@79be0360]" name="createNewContactPage" duration-ms="34227" started-at="2020-05-13T22:25:39 CDT" finished-at="2020-05-13T22:26:13 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validUserShouldBeAbletoLoginin -->
-      </class> <!-- test.LoginTest -->
+        </test-method> <!-- createNewContactPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@79be0360]" name="tearDown" is-config="true" duration-ms="686" started-at="2020-05-13T22:26:13 CDT" finished-at="2020-05-13T22:26:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
