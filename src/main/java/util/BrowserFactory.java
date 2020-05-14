@@ -11,7 +11,7 @@ public class BrowserFactory {
 	
 	public static WebDriver launchBrowser() {
 		
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\14693\\eclipse-workspace-Selenium\\POMProject_Farhana\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
