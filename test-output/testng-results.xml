@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12807" started-at="2020-05-10T18:58:04Z" finished-at="2020-05-10T18:58:17Z">
+  <suite name="Default suite" duration-ms="10945" started-at="2020-05-14T00:50:42 CDT" finished-at="2020-05-14T00:50:53 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12807" started-at="2020-05-10T18:58:04Z" finished-at="2020-05-10T18:58:17Z">
-      <class name="test.LoginTest">
-        <test-method status="PASS" signature="validUserShouldBeAbletoLoginin()[pri:0, instance:test.LoginTest@2ef5e5e3]" name="validUserShouldBeAbletoLoginin" duration-ms="12746" started-at="2020-05-10T13:58:04Z" finished-at="2020-05-10T13:58:17Z">
+    <test name="Default test" duration-ms="10945" started-at="2020-05-14T00:50:42 CDT" finished-at="2020-05-14T00:50:53 CDT">
+      <class name="test.CreateAccountinBankAndCashTest">
+        <test-method status="PASS" signature="ValidUserShouldBeAbleToCreateAccount()[pri:0, instance:test.CreateAccountinBankAndCashTest@4973813a]" name="ValidUserShouldBeAbleToCreateAccount" duration-ms="10872" started-at="2020-05-14T00:50:42 CDT" finished-at="2020-05-14T00:50:53 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validUserShouldBeAbletoLoginin -->
-      </class> <!-- test.LoginTest -->
+        </test-method> <!-- ValidUserShouldBeAbleToCreateAccount -->
+      </class> <!-- test.CreateAccountinBankAndCashTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
