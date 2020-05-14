@@ -11,7 +11,7 @@ public class BrowserFactory {
 	
 	public static WebDriver launchBrowser() {
 		
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver 2");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
