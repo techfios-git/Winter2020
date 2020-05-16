@@ -18,9 +18,12 @@ public class LoginPage {
 	//Element Library
 	/*WebElement WEBELEMENT_USERNAME_FIELD_LOCATOR = driver.findElement(By.id("username"));
 	By BY_USERNAME_FIELD_LOCATOR = By.id("username");*/
+	@FindBy(how = How.XPATH,using="//*[@id=\"side-menu\"]/li[1]/a/span" )WebElement DASHBOARD_LOCATOR;
 	@FindBy(how = How.ID, using = "username") WebElement USERNAME_FIELD_LOCATOR;
 	@FindBy(how = How.ID, using = "password") WebElement PASSWORD_FIELD_LOCATOR;
 	@FindBy(how = How.NAME, using = "login") WebElement SIGNIN_BUTTON_LOCATOR;
+	
+	//public void
 	
 	//Method to interact with the elements
 	public void enterUsername(String userName) {
