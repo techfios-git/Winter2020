@@ -21,9 +21,15 @@ public class DashBoardPage {
 	 */
 	@FindBy(how = How.XPATH, using = "//span[contains(text(), 'Dashboard')]")
 	WebElement DASHBOARD_LOCATOR;
+	
 	// method to interact with element
 	public void verifyDashboardTab() {
 		wetForElement(driver,2,DASHBOARD_LOCATOR);
+		
+	}
+
+	private void wetForElement(WebDriver driver2, int i, WebElement dASHBOARD_LOCATOR2) {
+		// TODO Auto-generated method stub
 		
 	}
 
