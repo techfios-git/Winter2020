@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DashBoardPage {
 
@@ -28,8 +30,9 @@ public class DashBoardPage {
 		
 	}
 
-	private void wetForElement(WebDriver driver2, int i, WebElement dASHBOARD_LOCATOR2) {
-		// TODO Auto-generated method stub
+	private void wetForElement(WebDriver driver2, int time, WebElement locator) {
+		WebDriverWait wait = new WebDriverWait(driver, time);
+		wait.until(ExpectedConditions.visibilityOf(DASHBOARD_LOCATOR));
 		
 	}
 
